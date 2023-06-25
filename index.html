@@ -58,38 +58,104 @@
         <div class="projects__container">
           <div class="projects__description">
             <h2 class="title projects__title colored">Completed<br />projects</h2>
-            <p class="projects__description__rostov">
+            <p class="projects__description__flat charachteristics_rostov_admiral visible">
               Only a small part of the work performed by our company is presented on the site. For
               14 years on in the construction market we have made happy more than 1000 families
             </p>
-            <ul class="projects__description__list projects__description__list_decktop">
+            <p class="projects__description__flat charachteristics_sochi">
+              Only a small part of the work performed by our company is presented on the site. For
+              15 years on in the construction market we have made happy more than 1000 families
+            </p>
+            <p class="projects__description__flat charachteristics_rostov_patriotic">
+              Only a small part of the work performed by our company is presented on the site. For
+              16 years on in the construction market we have made happy more than 1000 families
+            </p>
+            <ul
+              class="projects__description__list projects__description__list_decktop projects__description__list_visible"
+            >
               <li>
                 <h3 class="title colored">City:</h3>
-                <p>Rostov-on-Don<br />LCD admiral</p>
+                <p class="projects__charachteristics projects__charachteristics_rostov_admiral">
+                  Rostov-on-Don<br />LCD admiral
+                </p>
               </li>
               <li>
                 <h3 class="title colored">apartment area:</h3>
-                <p>81 m2</p>
+                <p class="projects__charachteristics projects__charachteristics_rostov_admiral">
+                  81 m2
+                </p>
               </li>
               <li>
                 <h3 class="title colored">Repair time:</h3>
-                <p>3.5 months</p>
+                <p class="projects__charachteristics projects__charachteristics_rostov_admiral">
+                  3.5 months
+                </p>
               </li>
               <li>
                 <h3 class="title colored">Repair Cost:</h3>
-                <p>Upon request</p>
+                <p class="projects__charachteristics projects__charachteristics_rostov_admiral">
+                  Upon request
+                </p>
+              </li>
+            </ul>
+            <ul class="projects__description__list projects__description__list_decktop">
+              <li>
+                <h3 class="title colored">City:</h3>
+                <p class="projects__charachteristics projects__charachteristics_sochi">
+                  Sochi<br />Thieves
+                </p>
+              </li>
+              <li>
+                <h3 class="title colored">apartment area:</h3>
+                <p class="projects__charachteristics projects__charachteristics_sochi">105 m2</p>
+              </li>
+              <li>
+                <h3 class="title colored">Repair time:</h3>
+                <p class="projects__charachteristics projects__charachteristics_sochi">4 months</p>
+              </li>
+              <li>
+                <h3 class="title colored">Repair Cost:</h3>
+                <p class="projects__charachteristics projects__charachteristics_sochi">
+                  Upon request
+                </p>
+              </li>
+            </ul>
+            <ul class="projects__description__list projects__description__list_decktop">
+              <li>
+                <h3 class="title colored">City:</h3>
+                <p class="projects__charachteristics projects__charachteristics_rostov_patriotic">
+                  Rostov-on-Don<br />Patriotic
+                </p>
+              </li>
+              <li>
+                <h3 class="title colored">apartment area:</h3>
+                <p class="projects__charachteristics projects__charachteristics_rostov_patriotic">
+                  93 m2
+                </p>
+              </li>
+              <li>
+                <h3 class="title colored">Repair time:</h3>
+                <p class="projects__charachteristics projects__charachteristics_rostov_patriotic">
+                  3 months
+                </p>
+              </li>
+              <li>
+                <h3 class="title colored">Repair Cost:</h3>
+                <p class="projects__charachteristics projects__charachteristics_rostov_patriotic">
+                  Upon request
+                </p>
               </li>
             </ul>
             <div class="projects__spinner">
-              <button class="spinner__button_desktop">
+              <button class="spinner__button_desktop spinner__button_desktop_left">
                 <img src="images/desktop_slider_left.svg" alt="left" />
               </button>
               <div class="spinner__points">
-                <div class="spinner__point spinner-active"></div>
-                <div class="spinner__point"></div>
-                <div class="spinner__point"></div>
+                <button class="spinner__point spinner-active"></button>
+                <button class="spinner__point"></button>
+                <button class="spinner__point"></button>
               </div>
-              <button class="spinner__button_desktop">
+              <button class="spinner__button_desktop spinner__button_desktop_right">
                 <img src="images/desktop_slider_right.svg" alt="right" />
               </button>
             </div>
@@ -107,17 +173,23 @@
               </li>
             </ul>
             <div class="projects__gallery__image">
-              <img
-                class="projects__gallery__image_decktop"
-                src="images/projec_decktop.png"
-                alt="Rostov-on-Don, Admiral"
-              />
-              <img
-                class="projects__gallery__image_mobile"
-                src="images/projec_mobile.png"
-                alt="Rostov-on-Don, Admiral"
-              />
-
+              <div class="projects__gallery__image_box">
+                <img
+                  class="projects__gallery__image_1"
+                  src="images/project_1.png"
+                  alt="Rostov-on-Don, Admiral"
+                />
+                <img
+                  class="projects__gallery__image_2"
+                  src="images/project_2.png"
+                  alt="Rostov-on-Don, Admiral"
+                />
+                <img
+                  class="projects__gallery__image_3"
+                  src="images/project_3.png"
+                  alt="Rostov-on-Don, Admiral"
+                />
+              </div>
               <button
                 class="projects__gallery__spinner_mobile projects__gallery__spinner_mobile_left"
               >
@@ -589,5 +661,6 @@
         <button class="button footer__button">Request a call</button>
       </div>
     </footer>
+    <script src="scripts.js"></script>
   </body>
 </html>
